@@ -7,6 +7,7 @@ body {
 .button{
     color: #ffffff;
     background: #008081;
+    margin: 0.5rem;
 }
 
 .codingimg{
@@ -14,6 +15,16 @@ body {
     background-size: cover;
     position: absolute;
     height: 100%;
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .home {
@@ -24,6 +35,17 @@ body {
     color: #ffffff;
     font-weight: bold;
     background-color: black;
+}
+
+.nav-link.skillnav{
+    color: black;
+    border: lightgray solid 1px;
+}
+
+.nav-link.skillnav.active{
+    background-color: #008081 !important;
+    border: 0;
+    color: white;
 }
 
 .profile{
@@ -67,4 +89,8 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-size: 30px;
+}
+
+.socials a:hover {
+    color: #008081;
 }

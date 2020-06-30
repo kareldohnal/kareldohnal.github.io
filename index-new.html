@@ -8,13 +8,21 @@
     <!-- Bootstrap + JQuery + Popper -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/deaae8e590.js" crossorigin="anonymous"></script>
     <!-- CSS custom -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- JS custom -->
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -29,7 +37,7 @@
     </div> -->
     <!-- Loading END -->
     <!-- Navigation START -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light navigation">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navigation">
         <div class="container">
             <a class="navbar-brand" href="#">Karel Dohnal</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -56,13 +64,325 @@
                 </ul>
 
                 <ul class="list-unstyled mb-0 mt-2 mt-sm-0 socials">
-                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/karel-dohnal" target="blank"><i class="fab fa-linkedin"></i></a></li>
-                  <li class="list-inline-item"><a href="https://github.com/kareldohnal" target="blank"><i class="fab fa-github"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/karel-dohnal" target="blank"><i
+                                class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/kareldohnal" target="blank"><i
+                                class="fab fa-github"></i></a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Navigation END -->
+    <section class="home" style="background: url('img/nebula.png') center center no-repeat; background-size: cover;"
+        id="home">
+        <div class="profilepiccont">
+            <div class="profilepic">
+                <div class=" container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="title-heading mt-5 text-center">
+                                <img src="img/me.png" class="img-fluid rounded-pill profilepicimg"
+                                    alt="Profile picture">
+                                <h1 class="heading mt-3">Karel Dohnal</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#profile">
+                    <img src="img/scroll.gif" class="scroll" alt="scroll down">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="profile" id="profile">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-5">
+                    <div class="solverimg">
+                        <img src="img/solver.png" class="img-fluid mx-auto d-block position-relative" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                    <div class="section-title mb-0 ml-lg-5 ml-md-3">
+                        <h4 class="mb-3 font-weight-bold">Karel Dohnal</h4>
+                        <h6 class="mb-3 font-weight-bold">I'm a problem solver</h6>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at ante
+                            nec ante placerat feugiat id ut nunc. Suspendisse faucibus libero augue, aliquam convallis
+                            nisl tempus vitae. Vestibulum tortor augue, aliquam hendrerit pretium ut, sodales non quam.
+                            Mauris ultricies eros leo, sed efficitur odio pretium sed. Praesent id lorem et diam aliquam
+                            egestas. Nam convallis egestas lectus, a hendrerit lectus posuere et. Etiam massa diam,
+                            interdum ac blandit a, finibus a sapien. Ut iaculis nisl id metus semper consectetur. Ut
+                            faucibus turpis orci, ut imperdiet nulla faucibus a. Aenean blandit justo erat, at porta
+                            nisl mattis sit amet.</p>
+                        <div class="about-list">
+                            <ul class="list-unstyled">
+                                <li><span><i class="far fa-envelope"></i>&nbsp</span> <span> karel.dohnal@gmail.com
+                                    </span></li>
+                                <li><span>&nbsp<i class="fas fa-map-marker-alt"></i>&nbsp</span> <span> Prague, Czech
+                                        republic </span></li>
+                            </ul>
+                        </div>
+                        <div class="mt-4">
+                            <a href="#" class="btn button mr-2">View Resume</a>
+                            <a href="#projects" class="btn button">View Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light">
+        <div class="container-fluid">
+            <div class="row position-relative">
+                <div class="col-lg-4 codingimg" style="background-image:url('img/coding.jpg')"
+                    data-jarallax='{"speed": 0.5}'></div><!-- end col -->
+                <div class="col-lg-8 offset-lg-4">
+                    <div class="skillsbox">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center">
+                                <h4 class="title text-uppercase mb-4 pb-4">My Skills</h4>
+                                <p class="text-muted mx-auto para-desc mb-0">Below you can see languages, frameworks, libraries and software with which I have hands-on experience and rating how comfortable I feel
+                                    using them. <br> 1 being "absolute begginer" and 10 being "yeah, I totally got
+                                    this".</p>
+
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 col-md-4 col-12">
+                                <ul class="nav nav-pills flex-column" id="pills-tab" role="tablist">
+                                    <li class="nav-item mt-4 pt-2">
+                                        <a class="nav-link active" id="pills-cloud-tab" data-toggle="pill" href="#pills-cloud" role="tab" aria-controls="pills-cloud" aria-selected="false">
+                                            <div class="text-center pt-1 pb-1">
+                                                <h4 class="title font-weight-normal mb-0">Frontend</h4>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item mt-4 pt-2">
+                                        <a class="nav-link" id="pills-smart-tab" data-toggle="pill" href="#pills-smart"
+                                            role="tab" aria-controls="pills-smart" aria-selected="false">
+                                            <div class="text-center pt-1 pb-1">
+                                                <h4 class="title font-weight-normal mb-0">Backend</h4>
+                                            </div>
+                                        </a>
+                                        <!--end nav link-->
+                                    </li>
+                                    <!--end nav item-->
+
+                                    <li class="nav-item mt-4 pt-2">
+                                        <a class="nav-link" id="pills-apps-tab" data-toggle="pill" href="#pills-apps"
+                                            role="tab" aria-controls="pills-apps" aria-selected="false">
+                                            <div class="text-center pt-1 pb-1">
+                                                <h4 class="title font-weight-normal mb-0">Other</h4>
+                                            </div>
+                                        </a>
+                                        <!--end nav link-->
+                                    </li>
+                                    <!--end nav item-->
+                                </ul>
+                                <!--end nav pills-->
+                            </div>
+                            <!--end col-->
+
+                            <div class="col-lg-9 col-md-8 col-12">
+                                <div class="tab-content pl-lg-4" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-cloud" role="tabpanel"
+                                        aria-labelledby="pills-cloud-tab">
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">HTML</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:80%;">
+                                                    <div class="progress-value d-block text-muted h6"> 8/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">React</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6"> 6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">CSS</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Bootstrap</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Handlebars</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">JavaScript</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">JQuery</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:70%;">
+                                                    <div class="progress-value d-block text-muted h6">7/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Sass</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:50%;">
+                                                    <div class="progress-value d-block text-muted h6">5/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                    </div>
+                                    <!--end teb pane-->
+
+                                    <div class="tab-pane fade" id="pills-smart" role="tabpanel"
+                                        aria-labelledby="pills-smart-tab">
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Ruby on Rails</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Postgre SQL</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:50%;">
+                                                    <div class="progress-value d-block text-muted h6">5/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">MongoDB</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:50%;">
+                                                    <div class="progress-value d-block text-muted h6">5/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Express</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:40%;">
+                                                    <div class="progress-value d-block text-muted h6">4/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                    </div>
+                                    <!--end teb pane-->
+
+                                    <div class="tab-pane fade" id="pills-apps" role="tabpanel"
+                                        aria-labelledby="pills-apps-tab">
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Git/Github</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:80%;">
+                                                    <div class="progress-value d-block text-muted h6">8/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Sketch</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Abode Photoshop</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:50%;">
+                                                    <div class="progress-value d-block text-muted h6">5/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Abode Illustrator</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:40%;">
+                                                    <div class="progress-value d-block text-muted h6">4/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end process box-->
+                                        <div class="progress-box mt-4 pt-2">
+                                            <h6 class="font-weight-normal">Krita</h6>
+                                            <div class="progress">
+                                                <div class="progress-bar position-relative bg-custom"
+                                                    style="width:60%;">
+                                                    <div class="progress-value d-block text-muted h6">6/10</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end teb pane-->
+                                </div>
+                                <!--end tab content-->
+                            </div>
+                            <!--end col-->
+                        </div> <!-- end row -->
+                    </div> <!-- end about detail -->
+                </div> <!-- end col -->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container fluid-->
+    </section>
+    <!--end section-->
 </body>
 
 </html>

@@ -71,6 +71,40 @@ html{
     border: 5px solid gray;
 }
 
+.progressbar{
+    height: 2px;
+    background-color: #008081;
+    margin: 1px 2px;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+      width: 0;
+    }
+  }
+  
+  @keyframes animate-positive {
+    0% {
+      width: 0;
+    }
+  }
+
+.progresscont{
+    height: 6px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.progresslabel{
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    padding: 5px;
+    font-size: 13px;
+}
+
 .scroll{
     position: absolute;
     bottom: 30px;

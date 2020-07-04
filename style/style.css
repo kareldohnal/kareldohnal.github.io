@@ -7,7 +7,6 @@ body {
 .button{
     color: #ffffff;
     background: #008081;
-    margin: 0.5rem;
 }
 
 .codingimg{
@@ -46,10 +45,63 @@ html{
     text-decoration: none;
 }
 
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(45deg, #ffffff, #ffffff);
+    z-index: 9999999;
+}
+
+#loading #status{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #008081;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
 .navigation {
     color: #ffffff;
     font-weight: bold;
     background-color: black;
+}
+
+.nav-link.projectnav{
+    color: black;
+    border: lightgray solid 1px;
+}
+
+.nav-link.projectnav.active{
+    background-color: #008081 !important;
+    border: 0;
+    color: white;
 }
 
 .nav-link.skillnav{
@@ -61,6 +113,10 @@ html{
     background-color: #008081 !important;
     border: 0;
     color: white;
+}
+
+#pills-tabContent{
+    transition: height ease 2s;
 }
 
 .profile{
@@ -122,8 +178,12 @@ html{
 
 .projectimg{
     /* height: 263px; */
-    transition: all 2s ease;
+    transition: all 1s ease;
     width: 100%;
+}
+
+.projectimg:hover{
+    transform: scale(1.2);
 }
 
 .project-label{
@@ -135,6 +195,14 @@ html{
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
+}
+
+#projecttiles li.listview{
+    width: 100%;
+}
+
+#projecttiles ul.listview{
+    height: 100%;
 }
 
 .scroll{

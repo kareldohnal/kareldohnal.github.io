@@ -1,0 +1,10 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,4 @@
+.socials-items {
+    display: flex;
+    flex-direction: row;
+}

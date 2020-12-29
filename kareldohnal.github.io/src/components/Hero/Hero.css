@@ -1,0 +1,5 @@
+.hero {
+    background: url(img/nebula.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

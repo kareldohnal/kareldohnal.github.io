@@ -1,0 +1,14 @@
+.navitem{
+    list-style: none;
+}
+
+.navlink{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.navlink:hover{
+    color: rgba(255, 255, 255, 0.75);
+}

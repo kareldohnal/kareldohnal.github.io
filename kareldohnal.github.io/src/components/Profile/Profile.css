@@ -1,0 +1,62 @@
+.profile {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.solverimg {
+    max-width: 100%;
+    margin: auto;
+}
+
+.solverimg img {
+    width: 100%;
+}
+
+.solvername {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.solverlabel {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.solver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.solvertext {
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.solvercontact {
+    list-style: none;
+    line-height: 1.5;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .profile {
+        max-width: 1000px;
+        padding: 50px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .solverimg {
+        max-width: 30%;
+        margin: auto;
+    }
+        
+}

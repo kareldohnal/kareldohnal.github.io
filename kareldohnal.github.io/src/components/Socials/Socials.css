@@ -1,4 +1,21 @@
+.socials {
+    display: none;
+}
+
+.socials-mobile {
+    display: initial;
+    margin-top: 0.5rem;
+}
+
 .socials-items {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+@media (min-width: 800px) {
+    .socials {
+        display: initial;
+    }
 }

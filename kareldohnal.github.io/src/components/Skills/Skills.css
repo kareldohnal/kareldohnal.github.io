@@ -1,0 +1,38 @@
+.skills {
+    display: flex;
+    position: relative;
+    background-color: rgba(248, 249, 255, 0.9);
+}
+
+.skillsimg {
+    background-image: url(img/coding.jpg);
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.skillspanel {
+    height: 100%;
+    width: 100%;
+}
+
+.skillspanellabel {
+    padding: 80px 10%;
+
+}
+
+.skillspanellabel h4 {
+font-weight: 500;
+font-size: 1.5rem;
+text-transform: uppercase;
+text-align: center;
+margin-top: 0;
+}
+
+.skillspanellabel p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}

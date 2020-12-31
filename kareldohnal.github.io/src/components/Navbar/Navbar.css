@@ -8,12 +8,14 @@
 }
 
 .navbar-container {
+    min-height: 66px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 1200px;
+    padding: 0px 10px;
     margin: auto;
-
     font-weight: bold;
     color: white;
 }
+

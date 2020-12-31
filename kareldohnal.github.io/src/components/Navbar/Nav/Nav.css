@@ -1,3 +1,20 @@
+.hamburger-react {
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile {
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    top: 10px;
+}
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -6,5 +23,18 @@
 
 .nav-items {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 0;
+}
+
+@media (min-width: 800px) {
+    .nav-mobile {
+        display: none;
+    }
+    .nav-desktop {
+        display: initial;
+    }
+    .nav-items {
+        flex-direction: row;
+    }
 }

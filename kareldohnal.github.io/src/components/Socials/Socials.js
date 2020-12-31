@@ -4,10 +4,11 @@ import { SocItem } from './SocItem/SocItem';
 
 import './Socials.css';
 
-export const Socials = () => {
+export const Socials = (props) => {
+  const className = typeof props.className !== 'undefined' ? props.className : '';
   return (
     <>
-      <div className="socials">
+      <div className={`socials ${className}`}>
         <ul className="socials-items">
           <>
             <SocItem

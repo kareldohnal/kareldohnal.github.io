@@ -19,3 +19,16 @@
 .primarybtn:hover {
     color: rgba(0, 0, 0, 0.75)
 }
+
+.toggle {
+    font-weight: 400;
+    cursor: pointer;
+    border: lightgray solid 1px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.toggle.active {
+    color: white;
+    background: #008081;
+    border: 0;
+}

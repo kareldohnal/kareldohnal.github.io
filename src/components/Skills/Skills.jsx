@@ -6,7 +6,7 @@ import './Skills.css';
 export const Skills = () => {
     return (
       <>
-        <section className="skills">
+        <section className="skills" id="skills">
           <div className="skillsimg"></div>
           <div className="skillspanel">
             <div className="skillspanellabel">

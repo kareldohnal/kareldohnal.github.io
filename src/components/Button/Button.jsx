@@ -11,11 +11,14 @@ export const Button = (props) => {
 
   const onClick = typeof props.onClick !== 'undefined' ? props.onClick : () => { };
 
+  const id = typeof props.id !== 'undefined' ? props.id : props.textBtn.replace(/\s/g,'').toLowerCase();
+
   return (
     <>
       {!props.faApendix && (
         <button
-          className={`button ${className}`}
+          className={`button ${className}`} 
+          id={id}
           onClick={() => onClick()}
           type={typeBtn}
         >
@@ -27,6 +30,7 @@ export const Button = (props) => {
       {props.faApendix === "pdf" && (
         <button
           className={`button ${className}`}
+          id={id}
           onClick={() => onClick()}
           type={typeBtn}
         >

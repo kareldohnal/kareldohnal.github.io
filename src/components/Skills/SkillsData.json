@@ -1,17 +1,23 @@
 {
     "data": {
         "category": "Data manipulation",
-        "Excel": "7",
-        "SQL": "7"
+        "skills": {
+            "Excel": "7",
+            "SQL": "7"
+        }
     },
     "fe": {
         "category": "Front end",
-        "HTML": "7",
-        "CSS": "7"
+        "skills": {
+            "HTML": "7",
+            "CSS": "7"
+        }
     },
     "be": {
         "category": "Back end",
-        "Python": "7",
-        "Node.js": "7"
+        "skills": {
+            "Python": "7",
+            "Node.js": "7"
+        }
     }
 }

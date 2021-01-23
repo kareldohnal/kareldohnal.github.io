@@ -8,6 +8,10 @@
     margin: 0.25rem;
 }
 
+.button:focus{
+    outline: thin;
+}
+
 .primarybtn {
     color: white;
     background: #008081;
@@ -21,6 +25,8 @@
 }
 
 .toggle {
+    background-color: transparent;
+    font-size: 1.25rem;
     font-weight: 400;
     cursor: pointer;
     border: lightgray solid 1px;

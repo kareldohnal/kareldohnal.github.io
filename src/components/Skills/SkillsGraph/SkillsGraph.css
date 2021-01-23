@@ -1,0 +1,54 @@
+.skillsgraph {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skill-bar {
+    height: 4px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.skill-label {
+    position: absolute;
+    top: -25px;
+    right: -18px;
+}
+
+.skill-level {
+    position: relative;
+    height: 2px;
+    background-color: #008081;
+    margin: 1px 2px;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+      width: 0;
+    }
+  }
+  
+  @keyframes animate-positive {
+    0% {
+      width: 0;
+    }
+  }
+
+.skill-list ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list ul.active {
+    display: initial;
+}
+
+.skill-switch {
+    display: flex;
+    flex-direction: column;
+}

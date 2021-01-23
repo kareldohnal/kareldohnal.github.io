@@ -17,10 +17,11 @@
 .skillspanel {
     height: 100%;
     width: 100%;
+    padding: 80px 10%;
 }
 
 .skillspanellabel {
-    padding: 80px 10%;
+    padding-bottom: 20px;
 
 }
 

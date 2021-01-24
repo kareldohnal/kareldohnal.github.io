@@ -1,13 +1,12 @@
 .skillsgraph {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .skill-bar {
-    height: 4px;
-    border: 1px solid lightgray;
-    border-radius: 3px;
+  height: 4px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
 }
 
 .skill-item {
@@ -15,18 +14,18 @@
 }
 
 .skill-label {
-    position: absolute;
-    top: -25px;
-    right: -18px;
+  position: absolute;
+  top: -25px;
+  right: -18px;
 }
 
 .skill-level {
-    position: relative;
-    height: 2px;
-    background-color: #008081;
-    margin: 1px 2px;
-    -webkit-animation: animate-skill 2s;
-    animation: animate-skill 2s;
+  position: relative;
+  height: 2px;
+  background-color: #008081;
+  margin: 1px 2px;
+  -webkit-animation: animate-skill 2s;
+  animation: animate-skill 2s;
 }
 
 .skill-list {
@@ -34,26 +33,26 @@
 }
 
 @-webkit-keyframes animate-skill {
-    0% {
-      width: 0;
-    }
+  0% {
+    width: 0;
   }
-  
-  @keyframes animate-skill {
-    0% {
-      width: 0;
-    }
+}
+
+@keyframes animate-skill {
+  0% {
+    width: 0;
   }
+}
 
 .skill-list ul {
-    display: none;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
 }
 
 .skill-list ul.active {
-    display: initial;
+  display: initial;
 }
 
 .skill-name {
@@ -62,6 +61,21 @@
 }
 
 .skill-switch {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+@media (min-width: 768px) {
+  .skillsgraph {
+    flex-direction: row;
+  }
+
+  .skill-list {
+    width: 100%;
+  }
+
+  .skill-switch {
+    margin-right: 20px;
+  }
 }

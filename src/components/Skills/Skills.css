@@ -37,3 +37,15 @@ margin-top: 0;
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 992px) {
+.skillsimg {
+    width: 33%;
+    z-index: 0;
+}
+
+.skillspanel {
+    margin-left: 33%;
+    padding: 50px 5%;
+}
+}

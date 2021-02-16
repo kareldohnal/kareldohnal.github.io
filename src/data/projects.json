@@ -1,0 +1,23 @@
+{
+    "p1": {
+        "id": "p1",
+        "name": "Project 1",
+        "pitch": "Short description.",
+        "desc": "Long description about the project.",
+        "web": "www.web.cz"
+    },
+    "p2": {
+        "id": "p2",
+        "name": "Project 2",
+        "pitch": "Short description.2",
+        "desc": "Long description about the project.2",
+        "web": "www.web2.cz"
+    },
+    "p3": {
+        "id": "p3",
+        "name": "Project 3",
+        "pitch": "Short description3",
+        "desc": "Long description about the project.3",
+        "web": "www.web3.cz"
+    }
+}

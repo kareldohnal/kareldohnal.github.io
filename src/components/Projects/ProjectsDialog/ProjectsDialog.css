@@ -1,0 +1,21 @@
+.desc {
+    margin-top: 6px;
+}
+
+.details {
+    padding: 0px 24px 16px 24px;
+}
+
+#dialog-title h2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin: auto 0;
+}
+
+.pitch {
+    font-weight: bold;
+    margin: 5px 0;
+}

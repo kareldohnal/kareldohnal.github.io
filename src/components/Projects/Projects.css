@@ -27,17 +27,16 @@
 .projects-gal-item {
     margin: 0.5rem 0.5rem -0 0.5rem;
     position: relative;
+    transition: all 1s ease;
+}
+
+.projects-gal-item:hover {
+    transform: rotateY(15deg) perspective(1px);
 }
 
 .projects-gal-item img {
-    transition: all 1s ease;
     box-shadow: 10px 10px 5px rgb(180, 180, 180);
     width: 100%;
-}
-
-.projects-gal-item img:hover {
-    transform: rotateY(15deg) perspective(1000px);
-    box-shadow: 5px 5px 3px rgb(180, 180, 180);
 }
 
 .projects-gal-item-name {

@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import projectsJSON from "../../data/projects.json";
 
 import './Projects.css';
+import { ProjectsDialog } from './ProjectsDialog/ProjectsDialog';
 
 const requestImage = require.context('../../data/projectsimg', true, /png$/);
 
 export const Projects = () => {
+  const [open, setOpen] = useState(false);
+  const [select, setSelect] = useState(Object.keys(projectsJSON)[0]);
+
+  const handleClickOpen = (value) => {
+    setOpen(true);
+    setSelect(value)
+  };
+
+  const handleClose = () => {
+    setOpen(false)
+  }
+
   return (
     <>
       <div className="projects" id="projects">
@@ -16,13 +29,14 @@ export const Projects = () => {
         <div className="projects-gal">
           {Object.keys(projectsJSON).map((value) => {
             return (
-              <div className="projects-gal-item">
-                <img key={value} src={requestImage(`./${value}.png`).default} alt={projectsJSON[value].name} />
+              <div key={value} className="projects-gal-item">
+                <img src={requestImage(`./${value}.png`).default} alt={projectsJSON[value].name} onClick={() => handleClickOpen(value)} />
                 <div className="projects-gal-item-name">{projectsJSON[value].name}</div>
                 <div className="projects-gal-item-pitch">{projectsJSON[value].pitch}</div>
               </div>
               )
           })}
+          <ProjectsDialog open={open} onClose={handleClose} selected={select} />
         </div>
       </div>
     </>

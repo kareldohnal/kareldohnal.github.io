@@ -21,10 +21,10 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="projects" id="projects">
+      <section className="projects" id="projects">
         <div className="projects-head">
-        <h4>Projects</h4>
-        <p>Click on the thumbnails below for details.</p>
+          <h4>Projects</h4>
+          <p>Click on the thumbnails below for details.</p>
         </div>
         <div className="projects-gal">
           {Object.keys(projectsJSON).map((value) => {
@@ -34,11 +34,11 @@ export const Projects = () => {
                 <div className="projects-gal-item-name">{projectsJSON[value].name}</div>
                 <div className="projects-gal-item-pitch">{projectsJSON[value].pitch}</div>
               </div>
-              )
+            )
           })}
           <ProjectsDialog open={open} onClose={handleClose} selected={select} />
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '../../Button/Button';
-import Skillsjson from "../SkillsData.json";
+import Skillsjson from "../../../data/skills.json";
 
 import './SkillsGraph.css';
 

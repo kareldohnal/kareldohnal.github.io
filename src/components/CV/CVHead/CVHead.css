@@ -1,0 +1,6 @@
+.cvhead {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0 0 0;
+}

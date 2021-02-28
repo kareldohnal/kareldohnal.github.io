@@ -4,20 +4,74 @@
         "name": "Project 1",
         "pitch": "Short description.",
         "desc": "Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. ",
-        "web": "www.web.cz"
+        "web": "www.web.cz",
+        "techtools": {
+            "js": {
+                "label": "JavaScript",
+                "link": "https://en.wikipedia.org/wiki/JavaScript"
+            },
+            "html": {
+                "label": "HTML",
+                "link": "https://html.spec.whatwg.org/multipage/"
+            },
+            "react": {
+                "label": "React",
+                "link": "https://reactjs.org"
+            },
+            "css": {
+                "label": "CSS",
+                "link": "https://www.w3.org/Style/CSS/"
+            }
+        }
     },
     "p2": {
         "id": "p2",
         "name": "Project 2",
         "pitch": "Short description.2",
         "desc": "Long description about the project.2",
-        "web": "www.web2.cz"
+        "web": "www.web2.cz",
+        "techtools": {
+            "js": {
+                "label": "JavaScript",
+                "link": "https://en.wikipedia.org/wiki/JavaScript"
+            },
+            "html": {
+                "label": "HTML",
+                "link": "https://html.spec.whatwg.org/multipage/"
+            },
+            "react": {
+                "label": "React",
+                "link": "https://reactjs.org"
+            },
+            "css": {
+                "label": "CSS",
+                "link": "https://www.w3.org/Style/CSS/"
+            }
+        }
     },
     "p3": {
         "id": "p3",
         "name": "Project 3",
         "pitch": "Short description3",
         "desc": "Long description about the project.3",
-        "web": "www.web3.cz"
+        "web": "www.web3.cz",
+        "techtools": {
+            "js": {
+                "label": "JavaScript",
+                "link": "https://en.wikipedia.org/wiki/JavaScript"
+            },
+            "html": {
+                "label": "HTML",
+                "link": "https://html.spec.whatwg.org/multipage/"
+            },
+            "react": {
+                "label": "React",
+                "link": "https://reactjs.org"
+            },
+            "css": {
+                "label": "CSS",
+                "link": "https://www.w3.org/Style/CSS/"
+            }
+        }
     }
 }

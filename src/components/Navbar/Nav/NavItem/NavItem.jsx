@@ -7,7 +7,7 @@ export const NavItem = (props) => {
     <li className="navitem">
       <a
         href={`#${props.id}`}
-        className="navlink"
+        className="navlink anchor"
         onClick={() => props.onSelect()}
       >
         {props.text}

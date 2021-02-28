@@ -21,7 +21,7 @@ export const Nav = () => {
             <ul className="nav-items">
               <>
                 <NavItem
-                  id="/"
+                  id="hero"
                   text="Home"
                   onSelect={handleSelectItem}
                 />
@@ -60,7 +60,7 @@ export const Nav = () => {
           <ul className="nav-items">
             <>
               <NavItem
-                id="/"
+                id="hero"
                 text="Home"
                 onSelect={handleSelectItem}
               />

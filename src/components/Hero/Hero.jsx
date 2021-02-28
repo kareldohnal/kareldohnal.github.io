@@ -7,7 +7,7 @@ import './Hero.css';
 export const Hero = () => {
     return (
       <>
-        <section className="hero">
+        <section className="hero" id="hero">
           <ProfilePic label="white" />
           <a href="#profile">
             <img src={scroll} className="scroll" alt="scroll down" />

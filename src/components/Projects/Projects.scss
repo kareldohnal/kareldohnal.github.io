@@ -1,0 +1,50 @@
+@use "../../scss/variables" as var;
+@use "../../scss/extendables";
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: var.$section-pad;
+}
+
+.projects-gal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects-head {
+    @extend %section-head;
+}
+
+.projects-gal-item {
+    margin: 0.5rem 0.5rem -0 0.5rem;
+    position: relative;
+    transition: all 1s ease;
+    &:hover {
+        transform: rotateY(15deg) perspective(1px);
+    }
+    img {
+        box-shadow: 10px 10px 5px rgb(180, 180, 180);
+        width: 100%;
+    }
+}
+
+%projects-gal-item-label {
+    position: relative;
+    top: -55px;
+    left: 10px;
+}
+
+.projects-gal-item-name {
+    @extend %projects-gal-item-label;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.projects-gal-item-pitch {
+    @extend %projects-gal-item-label;
+    font-size: 1rem;
+    font-weight: 300;
+}

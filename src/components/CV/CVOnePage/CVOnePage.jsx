@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './CVOnePage.css';
+import './CVOnePage.scss';
 
 export const CVOnePage = () => {
   return (

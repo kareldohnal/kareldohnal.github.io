@@ -2,7 +2,7 @@ import React from 'react';
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import './Button.css';
+import './Button.scss';
 
 export const Button = (props) => {
   const className = typeof props.className !== 'undefined' ? props.className : 'primarybtn';

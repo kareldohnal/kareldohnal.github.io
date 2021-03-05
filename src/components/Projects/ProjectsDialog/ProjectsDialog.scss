@@ -6,10 +6,12 @@
     padding: 0px 24px 16px 24px;
 }
 
-#dialog-title h2{
-    display: flex;
-    justify-content: space-between;
-}
+#dialog-title {
+    h2{
+        display: flex;
+        justify-content: space-between;
+    }
+} 
 
 .name {
     margin: auto 0;

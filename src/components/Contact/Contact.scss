@@ -1,0 +1,21 @@
+@use "../../scss/colors";
+@use "../../scss/variables" as var;
+@use "../../scss/extendables";
+
+.contact {
+    background-color: colors.$section-darker-bg;
+    padding: var.$section-pad;
+}
+
+.contact-head {
+    @extend %section-head;
+} 
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    p{
+        margin: 0;
+    }
+}

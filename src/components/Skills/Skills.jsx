@@ -1,7 +1,7 @@
 import React from 'react';
 import { SkillsGraph } from './SkillsGraph/SkillsGraph';
 
-import './Skills.css';
+import './Skills.scss';
 
 export const Skills = () => {
     return (

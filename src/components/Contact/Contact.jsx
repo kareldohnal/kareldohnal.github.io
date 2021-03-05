@@ -2,7 +2,7 @@ import React from 'react';
 import Link from '@material-ui/core/Link';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
-import './Contact.css';
+import './Contact.scss';
 
 export const Contact = () => {
     return (

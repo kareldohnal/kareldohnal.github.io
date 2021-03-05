@@ -8,7 +8,7 @@ import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import Link from '@material-ui/core/Link';
 import Tooltip from '@material-ui/core/Tooltip';
 
-import './ProjectsDialog.css';
+import './ProjectsDialog.scss';
 
 const requestImage = require.context('../../../data/projectsimg', true, /png$/);
 const requestTechImage = require.context('../../../data/techtools', true, /svg$/);

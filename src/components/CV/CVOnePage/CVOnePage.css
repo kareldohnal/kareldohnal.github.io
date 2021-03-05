@@ -1,0 +1,12 @@
+.container {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.cvonepage {
+ 
+    animation: morph 2s ease-in-out infinite;
+    border: black solid 1px;
+    border-radius: 20% 30% 30% 70% / 80% 70% 70% 40%;
+}

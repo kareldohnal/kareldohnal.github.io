@@ -2,7 +2,7 @@ import React from 'react';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { SocItem } from './SocItem/SocItem';
 
-import './Socials.css';
+import './Socials.scss';
 
 export const Socials = (props) => {
   const className = typeof props.className !== 'undefined' ? props.className : '';

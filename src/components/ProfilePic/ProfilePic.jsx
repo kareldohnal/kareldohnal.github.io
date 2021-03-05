@@ -1,7 +1,7 @@
 import React from 'react';
 import profilepic from "./img/profilepic.png"
 
-import './ProfilePic.css';
+import './ProfilePic.scss';
 
 export const ProfilePic = (props) => {
 

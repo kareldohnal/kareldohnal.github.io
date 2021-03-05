@@ -2,7 +2,7 @@ import React from 'react';
 import { ProfilePic } from '../ProfilePic/ProfilePic';
 import scroll from "./img/scroll.gif";
 
-import './Hero.css';
+import './Hero.scss';
 
 export const Hero = () => {
     return (

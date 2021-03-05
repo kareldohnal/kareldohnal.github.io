@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import projectsJSON from "../../data/projects.json";
 
-import './Projects.css';
+import './Projects.scss';
 import { ProjectsDialog } from './ProjectsDialog/ProjectsDialog';
 
 const requestImage = require.context('../../data/projectsimg', true, /png$/);

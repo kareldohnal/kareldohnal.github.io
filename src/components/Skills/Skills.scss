@@ -1,7 +1,11 @@
+@use "../../scss/colors";
+@use "../../scss/variables" as var;
+@use "../../scss/extendables";
+
 .skills {
     display: flex;
     position: relative;
-    background-color: rgba(248, 249, 255, 0.9);
+    background-color: colors.$section-darker-bg;
 }
 
 .skillsimg {
@@ -17,25 +21,12 @@
 .skillspanel {
     height: 100%;
     width: 100%;
-    padding: 80px 10%;
+    padding: var.$section-pad;
 }
 
 .skillspanellabel {
+    @extend %section-head;
     padding-bottom: 20px;
-
-}
-
-.skillspanellabel h4 {
-font-weight: 500;
-font-size: 1.5rem;
-text-transform: uppercase;
-text-align: center;
-margin-top: 0;
-}
-
-.skillspanellabel p {
-    text-align: center;
-    color: rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 992px) {

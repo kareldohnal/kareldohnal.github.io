@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-regular-svg-icons'
 
-import './Profile.css';
+import './Profile.scss';
 import { CVButtons } from '../CVButtons/CVButtons';
 
 export const Profile = () => {

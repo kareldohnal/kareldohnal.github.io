@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProfilePic } from '../../ProfilePic/ProfilePic';
 
-import './CVHead.css';
+import './CVHead.scss';
 
 export const CVHead = () => {
   return (

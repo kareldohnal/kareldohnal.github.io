@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from '../../Button/Button';
 import Skillsjson from "../../../data/skills.json";
 
-import './SkillsGraph.css';
+import './SkillsGraph.scss';
 
 export const SkillsGraph = () => {
   const [select, setSelect] = useState(Object.keys(Skillsjson)[0])

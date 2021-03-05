@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavItem } from './NavItem/NavItem';
 import { Divide as Hamburger } from "hamburger-react";
 
-import './Nav.css';
+import './Nav.scss';
 import { Socials } from '../../Socials/Socials';
 
 export const Nav = () => {

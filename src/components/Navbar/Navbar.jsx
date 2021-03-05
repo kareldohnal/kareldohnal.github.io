@@ -3,7 +3,7 @@ import { Socials } from '../Socials/Socials';
 import { Logo } from './Logo/Logo';
 import { Nav } from './Nav/Nav';
 
-import './Navbar.css';
+import './Navbar.scss';
 
 export const Navbar = () => {
   return (

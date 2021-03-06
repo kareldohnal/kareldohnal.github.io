@@ -1,12 +1,43 @@
-.container {
-    width: 800px;
-    height: 800px;
-    margin: auto;
-}
+.onepage {
+    display: flex;
+    justify-content: space-around;
+    .container {
+        max-width: 1200px;
+        border: dashed 2px;
 
-.cvonepage {
- 
-    animation: morph 2s ease-in-out infinite;
-    border: black solid 1px;
-    border-radius: 20% 30% 30% 70% / 80% 70% 70% 40%;
+        h1 {
+            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+            font-size: 1.5rem;
+            font-weight: 500;
+            background-color: white;
+            width: max-content;
+            margin-top: -24px;
+            margin-left: 15px;
+        }
+
+        .sidepanel {
+            width: 20%;
+            padding: 0 10px;
+            border-right: dashed 1px;
+            .solvertext {
+                font-size: 14px;
+            }
+        }
+
+        .skills {
+            display: flex;
+            flex-direction: column;
+            .category {
+                h6 {
+                    font-weight: 600;
+                    font-size: 1rem;
+                    margin-top: 0.8rem;
+                    margin-bottom: 0;
+                }
+                ul {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
 }

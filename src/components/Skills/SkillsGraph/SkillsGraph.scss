@@ -1,72 +1,71 @@
 .skillsgraph {
   display: flex;
   flex-direction: column;
-}
-
-.skill-bar {
-  height: 4px;
-  border: 1px solid lightgray;
-  border-radius: 3px;
-}
-
-.skill-item {
-  padding: 10px 0;
-}
-
-.skill-label {
-  position: absolute;
-  top: -25px;
-  right: -18px;
-}
-
-.skill-level {
-  position: relative;
-  height: 2px;
-  background-color: #008081;
-  margin: 1px 2px;
-  animation: animate-skill 2s;
-}
-
-@keyframes animate-skill {
-  0% {
-    width: 0;
+  .skill-bar {
+    height: 4px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
   }
-}
-
-.skill-list {
-  padding: 20px 10px;
-  ul {
-    display: none;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    &.active {
-      display: initial;
+  
+  .skill-item {
+    padding: 10px 0;
+  }
+  
+  .skill-label {
+    position: absolute;
+    top: -25px;
+    right: -18px;
+  }
+  
+  .skill-level {
+    position: relative;
+    height: 2px;
+    background-color: #008081;
+    margin: 1px 2px;
+    animation: animate-skill 2s;
+  }
+  
+  @keyframes animate-skill {
+    0% {
+      width: 0;
     }
   }
-}
-
-.skill-name {
-  position: relative;
-  top: -5px;
-}
-
-.skill-switch {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-@media (min-width: 768px) {
-  .skillsgraph {
-    flex-direction: row;
-  }
-
+  
   .skill-list {
-    width: 100%;
+    padding: 20px 10px;
+    ul {
+      display: none;
+      flex-direction: column;
+      list-style: none;
+      padding: 0;
+      &.active {
+        display: initial;
+      }
+    }
   }
-
+  
+  .skill-name {
+    position: relative;
+    top: -5px;
+  }
+  
   .skill-switch {
-    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  @media (min-width: 768px) {
+    .skillsgraph {
+      flex-direction: row;
+    }
+  
+    .skill-list {
+      width: 100%;
+    }
+  
+    .skill-switch {
+      margin-right: 20px;
+    }
   }
 }

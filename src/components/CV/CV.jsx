@@ -1,4 +1,5 @@
 import React from 'react';
+import { CVExperience } from './CVExperience/CVExperience';
 import { CVHead } from './CVHead/CVHead';
 import { CVOnePage } from './CVOnePage/CVOnePage';
 
@@ -10,6 +11,7 @@ export const CV = () => {
       <div className="cv">
         <CVHead />
         <CVOnePage />
+        <CVExperience mode="standalone" version="full" />
       </div>
     </>
   );

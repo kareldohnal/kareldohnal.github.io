@@ -35,21 +35,21 @@ export const Nav = () => {
                   text="Skills"
                   onSelect={handleSelectItem}
                 />
-                <NavItem
+                {/* <NavItem
                   id="projects"
                   text="Projects"
                   onSelect={handleSelectItem}
-                />
+                /> */}
                 <NavItem
                   id="contact"
                   text="Contact"
                   onSelect={handleSelectItem}
                 />
-                <NavItem
+                {/* <NavItem
                   id="/resume"
                   text="Curriculum vitae"
                   onSelect={handleSelectItem}
-                />
+                /> */}
                 <Socials className="socials-mobile" />
               </>
             </ul>
@@ -74,21 +74,21 @@ export const Nav = () => {
                 text="Skills"
                 onSelect={handleSelectItem}
               />
-              <NavItem
+              {/* <NavItem
                 id="projects"
                 text="Projects"
                 onSelect={handleSelectItem}
-              />
+              /> */}
               <NavItem
                 id="contact"
                 text="Contact"
                 onSelect={handleSelectItem}
               />
-              <NavItem
+              {/* <NavItem
                 id="/resume"
                 text="Curriculum vitae"
                 onSelect={handleSelectItem}
-              />
+              /> */}
             </>
           </ul>
         </nav>

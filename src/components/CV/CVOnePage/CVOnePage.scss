@@ -4,6 +4,7 @@
     .container {
         max-width: 1200px;
         border: dashed 2px;
+        display: flex;
 
         h1 {
             font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -11,33 +12,55 @@
             font-weight: 500;
             background-color: white;
             width: max-content;
-            margin-top: -24px;
+            position: absolute;
+            margin-top: -20px;
             margin-left: 15px;
         }
 
         .sidepanel {
             width: 20%;
-            padding: 0 10px;
+            padding: 10px;
             border-right: dashed 1px;
+
+            h2 {
+                text-transform: uppercase;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+
+            h4 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            h6 {
+                font-weight: 600;
+                font-size: 1rem;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .skills {
+                display: flex;
+                flex-direction: column;         
+            }
+
             .solvertext {
                 font-size: 14px;
+                padding-left: 5px;
+                text-align: justify;
+            }
+
+            ul {
+                margin-top: 0;
+                list-style: none;
+                font-size: 14px;
+                padding-left: 5px;
             }
         }
 
-        .skills {
-            display: flex;
-            flex-direction: column;
-            .category {
-                h6 {
-                    font-weight: 600;
-                    font-size: 1rem;
-                    margin-top: 0.8rem;
-                    margin-bottom: 0;
-                }
-                ul {
-                    margin-top: 0;
-                }
-            }
+        .mainpanel {
+            padding: 10px;
         }
     }
 }

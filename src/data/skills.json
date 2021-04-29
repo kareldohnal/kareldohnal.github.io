@@ -2,22 +2,41 @@
     "data": {
         "category": "Data manipulation",
         "skills": {
-            "Excel": "7",
-            "SQL": "6"
+            "Excel": "8",
+            "SQL/Postgres": "6",
+            "Python": "6",
+            "PowerBI": "3",
+            "Tableau": "3"
         }
     },
     "fe": {
         "category": "Front end",
         "skills": {
-            "HTML": "7",
-            "CSS": "7"
+            "HTML": "8",
+            "CSS/SASS": "7",
+            "React": "6",
+            "VanillaJS": "6",
+            "Socket.io": "6",
+            "JQuery": "3"
         }
     },
     "be": {
         "category": "Back end",
         "skills": {
-            "Python": "7",
-            "Node.js": "7"
+            "Python": "6",
+            "Node.js": "4",
+            "SQL/PosgreSQL": "5",
+            "GOlang": "3"
+        }
+    },
+    "visual": {
+        "category": "Visual art tools",
+        "skills": {
+            "Adobe Premiere Pro": "8",
+            "Adobe Photoshop": "5",
+            "Adobe Illustrator": "4",
+            "Blender": "5",
+            "Adobe After Effects": "3"
         }
     }
 }

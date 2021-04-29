@@ -1,0 +1,29 @@
+.experience {
+    h2 {
+        text-transform: uppercase;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 15px;
+    }
+
+    .item {
+        display: flex;
+
+        .period {
+            min-width: 160px;
+            font-weight: bold;
+        }
+
+        .role, .company {
+            font-weight: bold;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}

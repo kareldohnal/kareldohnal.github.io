@@ -5,8 +5,8 @@
             "Excel": "8",
             "SQL/Postgres": "6",
             "Python": "6",
-            "PowerBI": "3",
-            "Tableau": "3"
+            "PowerBI": "2",
+            "Tableau": "2"
         }
     },
     "fe": {
@@ -14,19 +14,19 @@
         "skills": {
             "HTML": "8",
             "CSS/SASS": "7",
-            "React": "6",
-            "VanillaJS": "6",
+            "React": "7",
+            "VanillaJS": "7",
             "Socket.io": "6",
-            "JQuery": "3"
+            "JQuery": "2"
         }
     },
     "be": {
         "category": "Back end",
         "skills": {
             "Python": "6",
-            "Node.js": "4",
+            "Node.js": "5",
             "SQL/PosgreSQL": "5",
-            "GOlang": "3"
+            "GOlang": "6"
         }
     },
     "visual": {

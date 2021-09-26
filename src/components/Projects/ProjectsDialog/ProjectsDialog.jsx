@@ -37,7 +37,7 @@ export const ProjectsDialog = (props) => {
             {Object.keys(projectsJSON[selected].techtools).map((value) => {
               return (
                 <Tooltip key={value} title={projectsJSON[selected].techtools[value].label} arrow={true}>
-                  <a href={projectsJSON[selected].techtools[value].link} target="_blank" rel="noreferrer"><img src={requestTechImage(`./${value}.svg`).default} className="techimg" alt={value} width="50px" height="50px" /></a>
+                  <a href={projectsJSON[selected].techtools[value].link} target="_blank" rel="noreferrer"><img src={requestTechImage(`./${value}.svg`).default} className="techimg" alt={value} height="50px" /></a>
                 </Tooltip>
               )
 

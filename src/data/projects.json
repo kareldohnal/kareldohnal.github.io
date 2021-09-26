@@ -79,6 +79,10 @@
             "go": {
                 "label": "Golang",
                 "link": "https://golang.org"
+            },
+            "mongo": {
+                "label": "MongoDB",
+                "link": "https://www.mongodb.com"
             }
         }
     }

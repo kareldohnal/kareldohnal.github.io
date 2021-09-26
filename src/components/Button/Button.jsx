@@ -1,6 +1,8 @@
 import React from 'react';
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons"
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 import './Button.scss';
 
@@ -17,7 +19,7 @@ export const Button = (props) => {
     <>
       {!props.faApendix && (
         <button
-          className={`button ${className}`} 
+          className={`button ${className}`}
           id={id}
           onClick={() => onClick()}
           type={typeBtn}
@@ -37,6 +39,19 @@ export const Button = (props) => {
           {props.textBtn}
           &nbsp;&nbsp;
           <FontAwesomeIcon icon={faFilePdf} />
+        </button>
+      )}
+      {/* Buttons with Linkedin Font Awesome apendix */}
+      {props.faApendix === "linkedin" && (
+        <button
+          className={`button ${className}`}
+          id={id}
+          onClick={() => onClick()}
+          type={typeBtn}
+        >
+          {props.textBtn}
+          &nbsp;&nbsp;
+          <FontAwesomeIcon icon={faLinkedin} />
         </button>
       )}
     </>

@@ -16,9 +16,9 @@ export const CVButtons = () => {
           textBtn="Open CV"
         /> */}
         <Button
-          onClick={()=> window.open(Pdf, "_blank")}
-          textBtn={"Download CV"}
-          faApendix="pdf"
+          onClick={()=> window.open("https://www.linkedin.com/in/karel-dohnal/", "_blank")}
+          textBtn={"Resumé available at "}
+          faApendix="linkedin"
         />
       </div>
     </>

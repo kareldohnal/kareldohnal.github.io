@@ -1,6 +1,11 @@
 @use "../../scss/variables" as var;
 @use "../../scss/extendables";
 
+mark {
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 0 5px;
+}
+
 .projects {
     display: flex;
     flex-direction: column;

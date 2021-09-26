@@ -8,7 +8,7 @@ import './Profile.scss';
 import { CVButtons } from '../CVButtons/CVButtons';
 
 export const Profile = () => {
-  
+
     return (
       <>
         <section className="profile" id="profile">
@@ -17,7 +17,7 @@ export const Profile = () => {
             <h4 className="solvername">Karel Dohnal</h4>
             <h6 className="solverlabel">I'm a problem solver</h6>
             <p className="solvertext">
-              Years of Analytical, Business Operation and Strategy Planning experience in combination with aspirations towards Software Engineering give me unique set of skills useful in any kind of problem solving process.
+              Years of Analytical, Business Operation and Strategy Planning experience in combination with entrepreneurship in Software Engineering give me unique set of skills useful in any kind of problem solving process.
             </p>
             <ul className="solvercontact">
               <li><FontAwesomeIcon icon={faEnvelope} /> karel.dohnal@gmail.com</li>

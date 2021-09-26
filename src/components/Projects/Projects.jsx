@@ -31,8 +31,8 @@ export const Projects = () => {
             return (
               <div key={value} className="projects-gal-item">
                 <img src={requestImage(`./${value}.png`).default} alt={projectsJSON[value].name} onClick={() => handleClickOpen(value)} />
-                <div className="projects-gal-item-name">{projectsJSON[value].name}</div>
-                <div className="projects-gal-item-pitch">{projectsJSON[value].pitch}</div>
+                <div className="projects-gal-item-name"><mark>{projectsJSON[value].name}</mark></div>
+                <div className="projects-gal-item-pitch"><mark>{projectsJSON[value].pitch}</mark></div>
               </div>
             )
           })}

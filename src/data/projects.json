@@ -1,10 +1,39 @@
 {
-    "p1": {
-        "id": "p1",
-        "name": "Project 1",
-        "pitch": "Short description.",
-        "desc": "Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. Long description about the project. ",
-        "web": "www.web.cz",
+    "sbk": {
+        "id": "sbk",
+        "name": "SpaceBarKeepers",
+        "pitch": "Co-founder and fullstack-developer.",
+        "desc": "In January 2021 I've started a small web-development business with my friend Bára. We've set up our website in a way that reflects the kind of creativity we want to pursue with our customers.",
+        "web": "www.spacebarkeepers.com",
+        "techtools": {
+            "js": {
+                "label": "JavaScript",
+                "link": "https://en.wikipedia.org/wiki/JavaScript"
+            },
+            "html": {
+                "label": "HTML",
+                "link": "https://html.spec.whatwg.org/multipage/"
+            },
+            "react": {
+                "label": "React",
+                "link": "https://reactjs.org"
+            },
+            "sass": {
+                "label": "SASS",
+                "link": "https://sass-lang.com"
+            },
+            "framer": {
+                "label": "Framer Motion",
+                "link": "https://www.framer.com/motion/"
+            }
+        }
+    },
+    "letokruh": {
+        "id": "letokruh",
+        "name": "Letokruh.eu",
+        "pitch": "Web for NGO",
+        "desc": "In cooperation with my business partner Bára, we've implemented provided UX design into custom made Wordpress theme created in React.",
+        "web": "www.letokruh.eu",
         "techtools": {
             "js": {
                 "label": "JavaScript",
@@ -24,12 +53,12 @@
             }
         }
     },
-    "p2": {
-        "id": "p2",
-        "name": "Project 2",
-        "pitch": "Short description.2",
-        "desc": "Long description about the project.2",
-        "web": "www.web2.cz",
+    "dkck": {
+        "id": "dkck",
+        "name": "Dámský klub Český Krumlov",
+        "pitch": "Web for voluntary organization.",
+        "desc": "In cooperation with my business partner Bára, we've created custom designed web. Project includes also small custom-made CMS.",
+        "web": "www.damskyklubck.cz",
         "techtools": {
             "js": {
                 "label": "JavaScript",
@@ -46,31 +75,10 @@
             "css": {
                 "label": "CSS",
                 "link": "https://www.w3.org/Style/CSS/"
-            }
-        }
-    },
-    "p3": {
-        "id": "p3",
-        "name": "Project 3",
-        "pitch": "Short description3",
-        "desc": "Long description about the project.3",
-        "web": "www.web3.cz",
-        "techtools": {
-            "js": {
-                "label": "JavaScript",
-                "link": "https://en.wikipedia.org/wiki/JavaScript"
             },
-            "html": {
-                "label": "HTML",
-                "link": "https://html.spec.whatwg.org/multipage/"
-            },
-            "react": {
-                "label": "React",
-                "link": "https://reactjs.org"
-            },
-            "css": {
-                "label": "CSS",
-                "link": "https://www.w3.org/Style/CSS/"
+            "go": {
+                "label": "Golang",
+                "link": "https://golang.org"
             }
         }
     }

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { NavItem } from './NavItem/NavItem';
-import { Divide as Hamburger } from "hamburger-react";
+import React, {useState} from 'react';
+import {NavItem} from './NavItem/NavItem';
+import {Divide as Hamburger} from "hamburger-react";
 
 import './Nav.scss';
-import { Socials } from '../../Socials/Socials';
+import {Socials} from '../../Socials/Socials';
 
 export const Nav = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -16,7 +16,8 @@ export const Nav = () => {
     <>
       <div className="nav">
         <nav className="nav-mobile">
-          <Hamburger toggled={menuOpened} toggle={setMenuOpened} label="Show menu" duration={0.8} className="hamburger" />
+          <Hamburger toggled={menuOpened} toggle={setMenuOpened} label="Show menu" duration={0.8}
+                     className="hamburger"/>
           {menuOpened && (
             <ul className="nav-items">
               <>
@@ -35,11 +36,11 @@ export const Nav = () => {
                   text="Skills"
                   onSelect={handleSelectItem}
                 />
-                {/* <NavItem
+                <NavItem
                   id="projects"
                   text="Projects"
                   onSelect={handleSelectItem}
-                /> */}
+                />
                 <NavItem
                   id="contact"
                   text="Contact"
@@ -50,7 +51,7 @@ export const Nav = () => {
                   text="Curriculum vitae"
                   onSelect={handleSelectItem}
                 /> */}
-                <Socials className="socials-mobile" />
+                <Socials className="socials-mobile"/>
               </>
             </ul>
           )}
@@ -74,11 +75,11 @@ export const Nav = () => {
                 text="Skills"
                 onSelect={handleSelectItem}
               />
-              {/* <NavItem
+              <NavItem
                 id="projects"
                 text="Projects"
                 onSelect={handleSelectItem}
-              /> */}
+              />
               <NavItem
                 id="contact"
                 text="Contact"

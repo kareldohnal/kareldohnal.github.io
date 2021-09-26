@@ -21,7 +21,6 @@ export const ProjectsDialog = (props) => {
   };
 
   return (
-    <>
       <Dialog onClose={handleClose} open={open} scroll="paper">
         <DialogTitle id="dialog-title">
           <div className="name">{projectsJSON[selected].name}</div>
@@ -46,6 +45,5 @@ export const ProjectsDialog = (props) => {
           </div>
         </div>
       </Dialog>
-    </>
   );
 };

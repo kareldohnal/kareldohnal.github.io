@@ -1,12 +1,66 @@
-.container {
-    width: 800px;
-    height: 800px;
-    margin: auto;
-}
+.onepage {
+    display: flex;
+    justify-content: space-around;
+    .container {
+        max-width: 1200px;
+        border: dashed 2px;
+        display: flex;
 
-.cvonepage {
- 
-    animation: morph 2s ease-in-out infinite;
-    border: black solid 1px;
-    border-radius: 20% 30% 30% 70% / 80% 70% 70% 40%;
+        h1 {
+            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+            font-size: 1.5rem;
+            font-weight: 500;
+            background-color: white;
+            width: max-content;
+            position: absolute;
+            margin-top: -20px;
+            margin-left: 15px;
+        }
+
+        .sidepanel {
+            width: 20%;
+            padding: 10px;
+            border-right: dashed 1px;
+
+            h2 {
+                text-transform: uppercase;
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+
+            h4 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            h6 {
+                font-weight: 600;
+                font-size: 1rem;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .skills {
+                display: flex;
+                flex-direction: column;         
+            }
+
+            .solvertext {
+                font-size: 14px;
+                padding-left: 5px;
+                text-align: justify;
+            }
+
+            ul {
+                margin-top: 0;
+                list-style: none;
+                font-size: 14px;
+                padding-left: 5px;
+            }
+        }
+
+        .mainpanel {
+            padding: 10px;
+        }
+    }
 }

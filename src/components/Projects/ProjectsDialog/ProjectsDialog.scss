@@ -1,17 +1,17 @@
-.desc {
-    margin-top: 6px;
-}
+// .desc {
+//     margin-top: 6px;
+// }
 
 .details {
     padding: 0px 24px 16px 24px;
 }
 
 #dialog-title {
-    h2{
+    h2 {
         display: flex;
         justify-content: space-between;
     }
-} 
+}
 
 .name {
     margin: auto 0;
@@ -28,4 +28,12 @@
 
 .techtools {
     margin-top: 10px;
+}
+
+Dialog {
+    .details {
+        .desc {
+            margin-top: 8px!important;
+        }
+    }
 }

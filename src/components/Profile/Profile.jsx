@@ -15,7 +15,7 @@ export const Profile = () => {
           <div className="solverimg"><img src={solver} alt="problem solver illustration" /></div>
           <div className="solver">
             <h4 className="solvername">Karel Dohnal</h4>
-            <h6 className="solverlabel">I'm problem solver</h6>
+            <h6 className="solverlabel">I'm a problem solver</h6>
             <p className="solvertext">
               Years of Analytical, Business Operation and Strategy Planning experience in combination with aspirations towards Software Engineering give me unique set of skills useful in any kind of problem solving process.
             </p>

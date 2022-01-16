@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+// import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CustomThemeProvider from "./context/themeContext";
+import {LanguageProvider} from "./context/languageContext";
+import {createGlobalStyle} from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: 'Lato', 'Roboto', sans-serif;
+  }
+    `;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LanguageProvider>
+      <CustomThemeProvider>
+        <GlobalStyle />
+        <App />
+      </CustomThemeProvider>
+    </LanguageProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

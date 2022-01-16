@@ -1,26 +1,22 @@
 import React from 'react';
-import {Contact} from '../../components/Contact/Contact';
 import {Footer} from '../../components/Footer/Footer';
 import {Hero} from '../../components/Hero/Hero';
-import {Navbar} from '../../components/Navbar/Navbar';
-import {Profile} from '../../components/Profile/Profile';
-import { Projects } from '../../components/Projects/Projects';
-import {Skills} from '../../components/Skills/Skills';
+import Header from "../../components/Header/Header";
+import styled from "styled-components";
 
-// import './Landing.css';
+const LandingContainer = styled.div(props =>({
+  height: "100vh",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "space-between",
+}));
 
 export const Landing = () => {
   return (
-    <>
-      <div className="landing">
-        <Navbar/>
+      <LandingContainer>
+        <Header />
         <Hero/>
-        <Profile/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
         <Footer/>
-      </div>
-    </>
+      </LandingContainer>
   );
 };

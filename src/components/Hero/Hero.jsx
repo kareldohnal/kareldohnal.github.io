@@ -1,18 +1,45 @@
 import React from 'react';
-import { ProfilePic } from '../ProfilePic/ProfilePic';
-import scroll from "./img/scroll.gif";
+import {useLanguage} from "../../context/languageContext";
+import { css } from '@emotion/react';
+import styled from "styled-components";
 
-import './Hero.scss';
+const HeroContainer = styled.div(props =>({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  marginTop: "-10%",
+  "& p": {
+    margin: 4,
+  },
+}));
+
+const HeroName = styled.p(props =>({
+fontSize: 64,
+}));
+
+const HeroDesc = styled.p(props =>({
+  fontSize: 36,
+}));
+
+const ColoredSpan = styled.span(props =>({
+  color: "#e30b5d",
+  fontWeight: "bold",
+}));
 
 export const Hero = () => {
+  const { language } = useLanguage()
     return (
-      <>
-        <section className="hero" id="hero">
-          <ProfilePic label="white" />
-          <a href="#profile">
-            <img src={scroll} className="scroll" alt="scroll down" />
-          </a>
-        </section>
-      </>
+      <HeroContainer>
+        <HeroName><ColoredSpan>Karel</ColoredSpan> Dohnal</HeroName>
+        <HeroDesc className={css`
+      padding: 32px;
+      background-color: hotpink;
+      font-size: 24px;
+      border-radius: 4px;
+      &:hover {
+        color: white;
+      }
+    `}><ColoredSpan>{language.data.fullstack_dev}</ColoredSpan> / {language.data.author_of}{" "}{language.data.cms}{" "}<ColoredSpan>{language.data.gosmonaut}</ColoredSpan></HeroDesc>
+      </HeroContainer>
     );
 };
